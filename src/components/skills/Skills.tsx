@@ -2,19 +2,16 @@ import React from "react";
 import { Skill, SkillsType } from "./config";
 import { v4 as uuidv4 } from "uuid";
 import "./Skills.css";
-import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
 
 const Skills = () => {
 
-  const { language } = useLanguage();
-
   return(
     <div className="bg-skills" id="more">
-      <p className="heading">{text[language].skillsetHeading}</p>
-      <p className="text">{text[language].skillsetDescription}</p>
+      <p className="heading">{text.skillsetHeading}</p>
+      <p className="text">{text.skillsetDescription}</p>
       <div>
-        {text[language].skills.map((skills: SkillsType) => {
+        {text.skills.map((skills: SkillsType) => {
           return(
             <div key={skills.type} className="skills-type">
               <div className="texts">

@@ -42,6 +42,15 @@ export const projectsEn: Project[] = [
     github: "",
     technologies: getSkill(["react", "typescript", "css", "solidity", "chainlink", "hardhat", "firebase"])
   },
+
+  {
+    name: "BananaPay V1",
+    description: "A payment system for receiving recurring payments in cryptocurrencies. (first version)",
+    image: BananaPayV1,
+    url: "https://bananapay-v1.tijan.dev/",
+    github: "",
+    technologies: getSkill(["react", "typescript", "css", "solidity", "chainlink", "hardhat"])
+  },
   {
     name: "BullFolio",
     description: "Crypto portfolio tracker that allows users to create strategies and alerts based on technical analysis and never miss a move again.",
@@ -51,52 +60,12 @@ export const projectsEn: Project[] = [
     technologies: getSkill(["react", "typescript", "firebase", "css"])
   },
   {
-    name: "Tic Tac Toe AI",
-    description: "A command-line Tic Tac Toe AI game built with Rust. Multiple game modes, including AI algorithms like Minimax and Monte Carlo Tree Search (MCTS).",
-    image: TicTacToe,
-    url: "https://github.com/0xTijan/tic-tac-toe-ai",
-    github: "https://github.com/0xTijan/tic-tac-toe-ai",
-    technologies: getSkill(["rust"])
-  },
-  {
     name: "Web3UIKit",
     description: "Open-source contributor to the Web3UIKit - Beautiful and lightweight UI components for web3 developers.",
     image: Web3UIKit,
     url: "https://web3uikit.com/",
     github: "https://github.com/web3ui/web3uikit",
     technologies: getSkill(["Open-Source Contribution", "react", "typescript", "css"])
-  },
-  {
-    name: "Portfolio",
-    description: "Developer portfolio showing my blockchain projects.",
-    image: Portfolio,
-    url: "https://tijan.dev/",
-    github: "https://github.com/0xTijan/portfolio",
-    technologies: getSkill(["react", "typescript", "html", "css", "git", "npm"])
-  },
-  {
-    name: "Collaborative Whiteboard",
-    description: "An online collaborative whiteboard app, with private and public rooms for people to chat and draw in real-time. They can also mint NFTs!",
-    image: Whiteboard,
-    url: "https://projects.tijan.dev/whiteboard",
-    github: "https://github.com/0xTijan/collaborative-canvas",
-    technologies: getSkill(["react", "typescript", "nodejs", "socket.io" , "solidity"])
-  },
-  {
-    name: "Terminal 2048",
-    description: "A terminal-based implementation of the popular 2048 game, written in Rust. Playable on different grid sizes - difficulties.",
-    image: TerminalGame,
-    url: "https://github.com/0xtijan/terminal-2048",
-    github: "https://github.com/0xtijan/terminal-2048",
-    technologies: getSkill(["rust"]),
-  },
-  {
-    name: "Token-Gated Chat",
-    description: "Chat groups with limitations based on your token balances, built in Moralis 7-day challenge.",
-    image: SimpleChat,
-    url: "https://projects.tijan.dev/simple-chat",
-    github: "https://github.com/0xTijan/simple-crypto-chat",
-    technologies: getSkill(["html", "css", "javascript"])
   },
   {
     name: "Coin Flip",
@@ -115,28 +84,12 @@ export const projectsEn: Project[] = [
     technologies: getSkill(["solidity", "hardhat", "react", "javascript" ])
   },
   {
-    name: "Crypto Tracker",
-    description: "Users can see all statistics about top 250 cryptos and create their own personal portfolio.",
-    image: Crypto,
-    url: "https://projects.tijan.dev/crypto-tracker",
-    github: "https://github.com/0xTijan/crypto-tracker",
-    technologies: getSkill(["react", "javascript" , "css", "html", "git", "npm"])
-  },
-  {
     name: "Mobile Wallet",
     description: "Shows on-chain stats off user's address. User can add personal contacts for easy assets transfer.",
     image: Mobile,
     url: "",
     github: "https://github.com/0xTijan/mobile-wallet",
     technologies: getSkill(["react native", "javascript" , "css", "npm"])
-  },
-  {
-    name: "BananaPay V1",
-    description: "A payment system for receiving recurring payments in cryptocurrencies. (first version)",
-    image: BananaPayV1,
-    url: "https://bananapay-v1.tijan.dev/",
-    github: "",
-    technologies: getSkill(["react", "typescript", "css", "solidity", "chainlink", "hardhat"])
   },
 ];
 

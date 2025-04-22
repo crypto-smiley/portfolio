@@ -226,14 +226,34 @@ export const allSkills: Skill[] = [
     name: "Tauri",
     url: "https://v2.tauri.app/",
     img: Tauri
-  }
+  },
+  {
+    name: "Java",
+    url: "https://www.oracle.com/java/",
+    img: Tauri
+  },
+  {
+    name: "Kotlin",
+    url: "https://kotlinlang.org/",
+    img: Tauri
+  },
+  {
+    name: "C#",
+    url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    img: Tauri
+  },
+  {
+    name: "Ruby",
+    url: "https://www.ruby-lang.org/en/",
+    img: Tauri
+  },
 ];
 
 export const skillsEn: SkillsType[] = [
   {
     type: "Languages",
     description: "Programing languages I use:",
-    skills: getSkill(["Solidity", "TypeScript", "Rust", "JavaScript", "SQL", "Python", "HTML", "CSS"]),
+    skills: getSkill(["HTML", "CSS", "JavaScript", "TypeScript", "SQL", "Python", "Java", "Kotlin", "C#", "Ruby", "Solidity", "Rust"]),
   },
   {
     type: "Frameworks",
@@ -245,42 +265,14 @@ export const skillsEn: SkillsType[] = [
     description: "Tools I use during my development:",
     skills: getSkill(["Solana", "Ethereum", "Git", "Hardhat", "Chainlink", "Truffle", "Ganache"]),
   },
-  /*{
+  {
     type: "Libraries",
     description: "Libraries I have frequently used for my projects:",
     skills: getSkill(["Socket.io", "EthersJS", "web3js"]),
-  },*/
-  /*{
+  },
+  {
     type: "Data",
     description: "Projects I use for data in my applications",
     skills: getSkill(["The Graph", "Arweave", "IPFS", "PostgreSQL"]),
-  },*/
-];
-
-export const skillsSl: SkillsType[] = [
-  {
-    type: "Jeziki",
-    description: "Programski jeziki, ki jih uporabljam:",
-    skills: getSkill(["Solidity", "TypeScript", "Rust", "JavaScript", "SQL", "Python", "HTML", "CSS"]),
   },
-  {
-    type: "Frameworki",
-    description: "Frameworki s katerimi razvijam projekte:",
-    skills: getSkill(["React", "Next.js", "Vue", "NodeJS", "Firebase", "Tauri"]),
-  },
-  {
-    type: "Pripomočki",
-    description: "Pripomočki, katere uporabljam med razvijanjem:",
-    skills: getSkill(["Solana", "Ethereum", "Git", "Hardhat", "Chainlink", "Truffle", "Ganache"]),
-  },
-  /*{
-    type: "Knjižnjice",
-    description: "Knjižnjice, ki jih pogosto uporabljam v projektih:",
-    skills: getSkill(["Socket.io", "EthersJS", "web3js"]),
-  },
-  {
-    type: "Podatki",
-    description: "Projekti, katere uporabljam za podatke v svojih projektih:",
-    skills: getSkill(["The Graph", "Arweave", "IPFS", "PostgreSQL"]),
-  },*/
 ];

@@ -6,7 +6,6 @@
 import { useState, useEffect } from "react";
 import "./terminal.css";
 import { text } from "../../helpers/text";
-import { useLanguage } from "../../contexts/LanguageContext";
 import { Button } from "@chakra-ui/react";
 
 type TypewriterProps = {
@@ -57,9 +56,6 @@ const Typewriter = ({ text, delay, func, Spinner, spinTime }: TypewriterProps) =
 };
 
 const Terminal: React.FC = () => {
-
-  const { language } = useLanguage();
-
   const [Text1, setText1] = useState<string>("");
   const [Text2, setText2] = useState<string>("");
   const [Text3, setText3] = useState<string>("");
@@ -151,8 +147,8 @@ const Terminal: React.FC = () => {
 
   return (
     <div className="bg-skills">
-      <p className="heading">{text[language].terminalHeading}</p>
-      <p className="text">{text[language].terminalDescription}</p>
+      <p className="heading">{text.terminalHeading}</p>
+      <p className="text">{text.terminalDescription}</p>
       <div className="terminal">
         {start ? (
           <div className='console'>

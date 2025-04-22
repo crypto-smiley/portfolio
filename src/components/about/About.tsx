@@ -1,17 +1,13 @@
 import React from "react";
 import { Heading, Text, Button } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
-import { BsTelegram, BsChevronDown } from "react-icons/bs";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
+import { BsChevronDown } from "react-icons/bs";
 import "./About.css";
-import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
 
 const About = () => {
   
   // const [isVisible, setIsVisible] = useState<boolean>(true);
-
-  const { language } = useLanguage();
-
   // const hide = () => setIsVisible(false);
 
   const getFontSize = () => {
@@ -49,35 +45,29 @@ const About = () => {
         <div className="about-wrapper">
           <div className="about-text">
             <div className="about-title">
-              {/*<Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                {text[language].aboutHi}
-              </Heading>*/}
               <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                <span className="name">👋  Tijan</span>
+                <span className="name">🙂 JOHN</span>
               </Heading>
             </div>
             <div className="about-text-desc">
-              <Text fontSize='3xl'>{text[language].aboutSkilled} <span className="name">BLOCKCHAIN & WEB DEVELOPER</span> {text[language].aboutText}</Text>
+              <Text fontSize='3xl'>{text.aboutHi + " " + text.aboutIam + " " + text.aboutSkilled} <span className="name">Full Stack & Blockchain Engineer</span> {text.aboutText}</Text>
             </div>
 
             <div className="icons">
+              <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
+                <AiFillLinkedin className="icon" />
+              </a>
               <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
-              <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
-                <AiFillTwitterCircle className="icon" />
-              </a>
-              <a href="https://t.me/TijanWeb3" target="_blank" rel="noreferrer">
-                <BsTelegram className="icon" />
-              </a>
-              <a href="mailto:tijan@tijan.dev" target="_blank" rel="noreferrer">
+              <a href="mailto:john.arnold.crypto@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail className="icon" />
               </a>
             </div>
 
-            <a href="mailto:tijan@tijan.dev">
+            <a href="mailto:john.arnold.crypto@gmail.com">
               <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
-                {text[language].contactButton}
+                {text.contactButton}
               </Button>
             </a>
           </div>

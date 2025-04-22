@@ -1,13 +1,10 @@
 import React from "react";
 import { Button } from "@chakra-ui/react";
 import { MdOutlineEmail } from "react-icons/md";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowRight } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaDiscord } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 import "./Contact.css";
-import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
 
 export type Contact = {
@@ -20,50 +17,36 @@ export type Contact = {
 export const contacts: Contact[] = [
   {
     name: "EMAIL:",
-    info: "tijan@tijan.dev",
+    info: "john.arnold.crypto@gmail.com",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:tijan@tijan.dev",
+    url: "mailto:john.arnold.crypto@gmail.com",
   },
   {
-    name: "TWITTER:",
-    info: "@0xTijan",
-    icon: <AiFillTwitterCircle className="contact-icon" />,
+    name: "LINKEDIN:",
+    info: "@crypto-smiley",
+    icon: <AiFillLinkedin className="contact-icon" />,
     url: "https://twitter.com/0xTijan",
   },
   {
-    name: "TELEGRAM:",
-    info: "@TijanWeb3",
-    icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/TijanWeb3",
-  },
-  {
-    name: "DISCORD:",
-    info: "Tijan#6804",
-    icon: <FaDiscord className="contact-icon" />,
-    url: "https://discord.com/users/775249998379614238",
-  },
-  {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "@crypto-smiley",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
+    url: "https://github.com/crypto-smiley",
   },
   {
-    name: "LOCATION & ZONE:",
-    info: "Slovenia, UTC+1",
+    name: "LOCATION:",
+    info: "Texas, United States",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/slovenia",
+    url: "https://www.timeanddate.com/time/zone/usa/texas",
   },
 ];
 
 const Contact = () => {
 
-  const { language } = useLanguage();
-
   return(
     <div className="bg-contact">
       <div className="contact-header">
-        <p className="heading">{text[language].contactHeading}</p>
+        <p className="heading">{text.contactHeading}</p>
         {/*<p className="text">If you have any questions or want to hire me, please contact me:</p>*/}
       </div>
 
@@ -86,7 +69,7 @@ const Contact = () => {
       <div className="button-container">
         <a href="mailto:tijan@tijan.dev">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
-            {text[language].contactButton}
+            {text.contactButton}
           </Button>
         </a>
       </div>
