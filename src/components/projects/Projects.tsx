@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { Button, HStack, Heading, Text, Tag, Avatar, TagLabel } from "@chakra-ui/react";
+import { Heading, Text, Tag, Avatar, TagLabel } from "@chakra-ui/react";
 import { Project } from "./config";
-import { AiFillGithub } from "react-icons/ai";
 import { Skill } from "../skills/config";
 import "./Projects.css";
 import { text } from "../../helpers/text";
@@ -45,16 +44,6 @@ const Projects = () => {
                     );
                   })}
                 </div>
-                <HStack>
-                  <a href={project.github} target="_blank" rel="noreferrer">
-                    <Button size='md' leftIcon={<AiFillGithub />} colorScheme='blue' variant='solid'>GitHub</Button>
-                  </a>
-                  {project.url.length>0 ? (
-                    <a href={project.url} target="_blank" rel="noreferrer">
-                      <Button size='md' colorScheme='blue' variant='outline'>Demo</Button>
-                    </a>
-                  ):null}
-                </HStack>
               </div>
             </div>
           );
@@ -62,7 +51,7 @@ const Projects = () => {
       </div>
       <div>
         <p className="git-hub-text">{text.projectsGithubText}</p>
-        <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+        <a href="https://github.com/crypto-smiley" target="_blank" rel="noreferrer">
           <button className="git-hub-btn">GitHub</button>
         </a>
       </div>
