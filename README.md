@@ -3,8 +3,6 @@ My portfolio website show-casing my skillset, favourite projects and certificate
 
 Please leave a ⭐ if you like it.
 
-![Portfolio Preview](./portfolio-preview.png)
-
 ## Try It Out
 My portfolio website is live [here](https://crypto-smile.vercel.app/).
 
