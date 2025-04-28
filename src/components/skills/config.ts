@@ -31,7 +31,22 @@ import Rust from "./../../images/rust.png";
 import Solana from "./../../images/solana.png";
 import Ethereum from "./../../images/eth.png";
 import Tauri from "./../../images/tauri.png";
-
+import Java from "./../../images/java-logo.png";
+import Go from "./../../images/go-logo.png";
+import Ruby from "./../../images/ruby-logo.png";
+import FastAPI from "./../../images/fastAPI-logo.png";
+import Django from "./../../images/django-logo.svg";
+import Vercel from "./../../images/vercel-logo.svg";
+import Docker from "./../../images/docker.png";
+import Kubernetes from "./../../images/kubernetes.svg";
+import Infura from "./../../images/infura-log.png";
+import AWS from "./../../images/aws-logo.svg";
+import Alchemy from "./../../images/alchemy-logo.png";
+import Zod from "./../../images/zod-logo.jpeg";
+import Redux from "./../../images/redux-logo.png";
+import Chakra from "./../../images/chakra-ui-logo.png";
+import PostgreSQL from "./../../images/postgresql-logo.svg";
+import Pinata from "./../../images/pinata-logo.png";
 
 export type Skill = {
   name: string;
@@ -230,22 +245,82 @@ export const allSkills: Skill[] = [
   {
     name: "Java",
     url: "https://www.oracle.com/java/",
-    img: Tauri
-  },
-  {
-    name: "Kotlin",
-    url: "https://kotlinlang.org/",
-    img: Tauri
-  },
-  {
-    name: "C#",
-    url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
-    img: Tauri
+    img: Java
   },
   {
     name: "Ruby",
     url: "https://www.ruby-lang.org/en/",
-    img: Tauri
+    img: Ruby
+  },
+  {
+    name: "Go",
+    url: "https://www.ruby-lang.org/en/",
+    img: Go
+  },
+  {
+    name: "Django",
+    url: "https://www.ruby-lang.org/en/",
+    img: Django
+  },
+  {
+    name: "FastAPI",
+    url: "https://www.ruby-lang.org/en/",
+    img: FastAPI
+  },
+  {
+    name: "Docker",
+    url: "https://www.ruby-lang.org/en/",
+    img: Docker
+  },
+  {
+    name: "Kubernetes",
+    url: "https://www.ruby-lang.org/en/",
+    img: Kubernetes
+  },
+  {
+    name: "Vercel",
+    url: "https://www.ruby-lang.org/en/",
+    img: Vercel
+  },
+  {
+    name: "AWS",
+    url: "https://www.ruby-lang.org/en/",
+    img: AWS
+  },
+  {
+    name: "Infura",
+    url: "https://www.ruby-lang.org/en/",
+    img: Infura
+  },
+  {
+    name: "Alchemy",
+    url: "https://www.ruby-lang.org/en/",
+    img: Alchemy
+  },
+  {
+    name: "Zod",
+    url: "https://www.ruby-lang.org/en/",
+    img: Zod
+  },
+  {
+    name: "Redux",
+    url: "https://www.ruby-lang.org/en/",
+    img: Redux
+  },
+  {
+    name: "Chakra UI",
+    url: "https://www.ruby-lang.org/en/",
+    img: Chakra
+  },
+  {
+    name: "PostgreSQL",
+    url: "https://www.ruby-lang.org/en/",
+    img: PostgreSQL
+  },
+  {
+    name: "Pinata",
+    url: "https://www.ruby-lang.org/en/",
+    img: Pinata
   },
 ];
 
@@ -253,26 +328,26 @@ export const skillsEn: SkillsType[] = [
   {
     type: "Languages",
     description: "Programing languages I use:",
-    skills: getSkill(["HTML", "CSS", "JavaScript", "TypeScript", "SQL", "Python", "Java", "Kotlin", "C#", "Ruby", "Solidity", "Rust"]),
+    skills: getSkill(["HTML", "CSS", "JavaScript", "TypeScript", "SQL", "Python", "Java", "Go", "Ruby", "Solidity", "Rust"]),
   },
   {
     type: "Frameworks",
     description: "Frameworks with which I build my projects:",
-    skills: getSkill(["React", "Next.js", "Vue", "NodeJS", "Firebase", "Tauri"]),
+    skills: getSkill(["React", "Next.js", "Vue", "NodeJS", "Django", "FastAPI", "Firebase", "Tauri"]),
   },
   {
     type: "Tools",
     description: "Tools I use during my development:",
-    skills: getSkill(["Solana", "Ethereum", "Git", "Hardhat", "Chainlink", "Truffle", "Ganache"]),
+    skills: getSkill(["Solana", "Ethereum", "Git", "Hardhat", "Chainlink", "Truffle", "Ganache", "Docker", "Kubernetes", "Vercel", "AWS", "Infura", "Alchemy", "NPM", "YARN"]),
   },
   {
     type: "Libraries",
     description: "Libraries I have frequently used for my projects:",
-    skills: getSkill(["Socket.io", "EthersJS", "web3js"]),
+    skills: getSkill(["Socket.io", "EthersJS", "web3js", "Redux", "Chakra UI", "Zod"]),
   },
   {
     type: "Data",
     description: "Projects I use for data in my applications",
-    skills: getSkill(["The Graph", "Arweave", "IPFS", "PostgreSQL"]),
+    skills: getSkill(["The Graph", "Arweave", "IPFS", "PostgreSQL", "Pinata", "Moralis"]),
   },
 ];
