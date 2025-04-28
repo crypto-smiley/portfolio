@@ -254,72 +254,72 @@ export const allSkills: Skill[] = [
   },
   {
     name: "Go",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://go.dev/",
     img: Go
   },
   {
     name: "Django",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://www.djangoproject.com/",
     img: Django
   },
   {
     name: "FastAPI",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://fastapi.tiangolo.com/",
     img: FastAPI
   },
   {
     name: "Docker",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://www.docker.com/",
     img: Docker
   },
   {
     name: "Kubernetes",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://kubernetes.io/",
     img: Kubernetes
   },
   {
     name: "Vercel",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://vercel.com/",
     img: Vercel
   },
   {
     name: "AWS",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://aws.amazon.com/",
     img: AWS
   },
   {
     name: "Infura",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://infura.io/",
     img: Infura
   },
   {
     name: "Alchemy",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://www.alchemy.com/",
     img: Alchemy
   },
   {
     name: "Zod",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://zod.dev/",
     img: Zod
   },
   {
     name: "Redux",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://redux.js.org/",
     img: Redux
   },
   {
     name: "Chakra UI",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://chakra-ui.com/",
     img: Chakra
   },
   {
     name: "PostgreSQL",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://www.postgresql.org/",
     img: PostgreSQL
   },
   {
     name: "Pinata",
-    url: "https://www.ruby-lang.org/en/",
+    url: "https://www.pinata.cloud/",
     img: Pinata
   },
 ];
