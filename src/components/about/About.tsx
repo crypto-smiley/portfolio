@@ -54,10 +54,10 @@ const About = () => {
             </div>
 
             <div className="icons">
-              <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/john-arnold-crypto/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin className="icon" />
               </a>
-              <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+              <a href="https://github.com/crypto-smiley" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
               <a href="mailto:john.arnold.crypto@gmail.com" target="_blank" rel="noreferrer">

@@ -23,9 +23,9 @@ export const contacts: Contact[] = [
   },
   {
     name: "LINKEDIN:",
-    info: "@crypto-smiley",
+    info: "@john-arnold-crypto",
     icon: <AiFillLinkedin className="contact-icon" />,
-    url: "https://twitter.com/0xTijan",
+    url: "https://www.linkedin.com/in/john-arnold-crypto/",
   },
   {
     name: "GitHub:",
@@ -67,7 +67,7 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:tijan@tijan.dev">
+        <a href="mailto:john.arnold.crypto@gmail.com">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
             {text.contactButton}
           </Button>

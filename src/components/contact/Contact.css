@@ -1,9 +1,9 @@
 @import url("./../../App.css");
 
 .bg-contact {
-  background-color: var(--dark-bg);
+  background-color: var(--light-bg);
   height: fit-content;
-  color: var(--text-white);
+  color: var(--text-black);
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 5vw;
@@ -28,7 +28,7 @@
 .contact-section:hover {
   transform: scale(1.05);
   transition-duration: 0.3s;
-  background-color: var(--grey-bg);
+  background-color: var(--grey1-bg);
 }
 
 .contact-icon {
@@ -44,7 +44,7 @@
 }
 
 .contact-details {
-  color: var(--text-white);
+  color: var(--text-black);
   font-size: 1.5rem;
   font-weight: 400;
 }

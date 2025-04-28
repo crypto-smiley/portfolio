@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
       <div className="navbarRight">
         <div className="icons">
-          <a href="https://t.me/TijanWeb3" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/john-arnold-crypto/" target="_blank" rel="noreferrer">
             <AiFillLinkedin className="icon" />
           </a>
           <a href="https://github.com/crypto-smiley" target="_blank" rel="noreferrer">
@@ -47,7 +47,7 @@ const Navbar = () => {
             <AiOutlineMail className="icon" />
           </a>
         </div>
-        <a href="/?l=en">
+        <a href="">
           <img src={English} className="language" alt="English" />
         </a>
       </div>
